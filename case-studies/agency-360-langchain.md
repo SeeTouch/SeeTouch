@@ -2,11 +2,11 @@
 
 > Code-first LangGraph backend that automates hospitality recruitment onboarding end to end.
 
-<kbd>Role: Solo developer</kbd> · <kbd>Python · LangGraph · FastAPI</kbd> · <kbd>Late 2025 – 2026</kbd> · <kbd>Status: Production (v2)</kbd>
+<kbd>Role: Solo developer</kbd> · <kbd>Python · LangGraph · FastAPI</kbd> · <kbd>Jan–Mar 2026</kbd> · <kbd>Status: Production</kbd>
 
 ## Overview
 
-Agency 360 automates the full candidate onboarding cycle for a hospitality recruitment agency. It replaces a brittle low-code (n8n) workflow with a code-first, asynchronous multi-agent system built on LangGraph. A conversational agent ("Lisa") runs candidates through a deterministic onboarding sequence over chat, while specialized agents parse CVs, analyze photos, and detect work-history anomalies. The design goal was reliability: a deterministic state machine drives the process, and the LLMs act as a "smart interface" for extraction and natural language, never as the controller of the flow. The system was built across two iterations: a first version proved out the architecture, and a second, larger version — the primary, current codebase — extended it with a cross-job work-history analyzer, a references and summary builder, a data-correction system, and context-aware step skipping.
+Agency 360 automates the full candidate onboarding cycle for a hospitality recruitment agency. It replaces a brittle low-code (n8n) workflow with a code-first, asynchronous multi-agent system built on LangGraph. A conversational agent ("Lisa") runs candidates through a deterministic onboarding sequence over chat, while specialized agents parse CVs, analyze photos, and detect work-history anomalies. The design goal was reliability: a deterministic state machine drives the process, and the LLMs act as a "smart interface" for extraction and natural language, never as the controller of the flow. Development ran continuously over roughly two and a half months, growing from a working prototype into a full system with a cross-job work-history analyzer, a references and summary builder, a data-correction layer, and context-aware step skipping.
 
 ## What it does
 
@@ -44,13 +44,14 @@ Agency 360 automates the full candidate onboarding cycle for a hospitality recru
 
 | Metric | Value |
 |---|---|
-| Timeline | Late 2025 – 2026, developed over an extended period across two versions |
-| Lines of code | ~12,100 Python in the current v2 (54 authored modules); an earlier iteration added ~10,800 |
+| Timeline | 2026-01-08 → 2026-03-17 |
+| Commits | 197 (single repository, all authored by me) |
+| Active development days | 24 |
+| Lines of code | ~12,100 Python (54 authored modules, excl. venv/site-packages) |
 | Architecture | 4 specialized agents · 3 compiled LangGraph pipelines · provider-agnostic LLM factory (Anthropic + Gemini + OpenAI) |
-| Languages | Python + a Markdown prompt library; YAML/JSON config |
 | Tests | LLM-driven end-to-end simulator with persona scenarios |
 
-> Note on effort vs. commits: this was a long-running project, but most work landed in large, infrequent commits, and the primary v2 codebase is maintained outside git — so a raw commit count badly understates the time invested. A detailed `CHANGELOG.md` and `ROADMAP.md` document the sustained, near-daily iteration on the conversational logic, extraction agents, and onboarding state machine.
+> The project was developed in a single Git repository using two working trees — a stable snapshot branch and an active development branch where the bulk of the 197 commits live. A detailed `CHANGELOG.md` and `ROADMAP.md` track the day-by-day iteration on the conversational logic, extraction agents, and onboarding state machine.
 
 ## Screenshots
 

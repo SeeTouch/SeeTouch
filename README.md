@@ -40,7 +40,7 @@ Most of my work lives in **private client repositories**, so this profile is a c
 <table>
 <tr>
   <td align="center"><b>12</b><br>shipped projects</td>
-  <td align="center"><b>~1,600+</b><br>commits</td>
+  <td align="center"><b>~1,800+</b><br>commits</td>
   <td align="center"><b>~250k+</b><br>lines authored</td>
   <td align="center"><b>~2,000+</b><br>automated tests</td>
   <td align="center"><b>6</b><br>languages</td>
@@ -57,7 +57,7 @@ gantt
     dateFormat YYYY-MM-DD
     axisFormat %b
     section AI & Agents
-    Agency 360 (LangGraph)        :2026-01-08, 2026-03-05
+    Agency 360 (LangGraph)        :2026-01-08, 2026-03-17
     Cortex (PDF → RAG)            :2026-03-05, 2026-05-08
     section Mobile (Flutter)
     Frau Messenger               :2026-03-05, 2026-06-22
@@ -81,7 +81,7 @@ gantt
 ### 🤖 AI & Agents
 | Project | What it is | Stack | Scale |
 |---|---|---|---|
-| **[Agency 360](case-studies/agency-360-langchain.md)** | Multi-agent LangGraph backend automating hospitality recruitment onboarding | Python · LangGraph · FastAPI | ~12k LOC · 4 agents |
+| **[Agency 360](case-studies/agency-360-langchain.md)** | Multi-agent LangGraph backend automating hospitality recruitment onboarding | Python · LangGraph · FastAPI | ~12k LOC · 197 commits · 4 agents |
 | **[Cortex](case-studies/cortex.md)** | Turns PDFs & scanned books into RAG-ready knowledge bases via Gemini vision | React · TS · Google Gemini | ~9.1k LOC · 128 tests |
 
 ### 📱 Mobile (Flutter)
