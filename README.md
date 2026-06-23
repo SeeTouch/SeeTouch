@@ -74,7 +74,7 @@ gantt
     Agency 360            :2026-01-08, 2026-03-17
     Cortex                :2026-03-05, 2026-05-08
     section Mobile Apps
-    Frau Messenger        :2026-03-05, 2026-06-22
+    Community Messenger   :2026-03-05, 2026-06-22
     Conscious Creators    :2026-02-22, 2026-03-15
     CC Academy            :2026-03-28, 2026-04-27
     Yoga Timer            :2026-03-28, 2026-05-06
@@ -101,7 +101,7 @@ gantt
 ### 📱 Mobile (Flutter)
 | Project | What it is | Stack | Scale |
 |---|---|---|---|
-| **[Frau Messenger](case-studies/frau-messenger.md)** | Local-first, offline-capable messenger & community platform | Flutter · Drift · Supabase | ~59k LOC · 478 tests · 723 commits |
+| **[Women's Community Messenger](case-studies/community-messenger.md)** | Local-first, offline-capable women's community messenger *(NDA)* | Flutter · Drift · Supabase | ~59k LOC · 478 tests · 723 commits |
 | **[Conscious Creators](case-studies/conscious-creators.md)** | Omnichannel messaging CRM (Telegram/WhatsApp/email → one inbox) | Flutter · Supabase Edge · TS | ~13k LOC · offline-first |
 | **[The Conscious Creators Academy](case-studies/the-conscious-creators.md)** | Subscription video-course platform across web & mobile | Flutter · Next.js · Supabase | ~18k LOC · monorepo |
 | **[Yoga Timer](case-studies/yoga-timer.md)** | iOS-first guided yoga & meditation app with audio sessions | Flutter · Drift · Swift plugin | ~14k LOC · 129 tests |
