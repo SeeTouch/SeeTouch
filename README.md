@@ -17,7 +17,7 @@
 
 **Senior systems architect with 20+ years engineering complex hardware ecosystems**, now building enterprise-grade **AI automation** and **IoT** solutions. I bridge physical infrastructure — smart home, pro-AV, control systems — and cognitive intelligence: **LLMs, multi-agent systems, and RAG**.
 
-My background is deliberately unusual. Two decades integrating Crestron, KNX, AMX, DSP audio and matrix video on premium projects — including the full digital refit of a Sunseeker superyacht — give me a systems-level instinct that I now apply to software. I don't just write code; I unify hardware, CRM data, and AI logic into seamless, autonomous business ecosystems. The projects below show that range: from a 700-commit Flutter messenger to a multi-agent LangGraph backend to an edge-first smart-home platform for professional integrators.
+My background is deliberately unusual. Two decades integrating Crestron, KNX, AMX, DSP audio and matrix video on premium projects — including the full digital refit of a luxury superyacht — give me a systems-level instinct that I now apply to software. I don't just write code; I unify hardware, CRM data, and AI logic into seamless, autonomous business ecosystems. The projects below show that range: from a 700-commit Flutter messenger to a multi-agent LangGraph backend to an edge-first smart-home platform for professional integrators.
 
 Most of my work lives in **private client repositories**, so this profile is a curated set of **case studies**. Each one documents the problem, architecture, tech stack, and the engineering decisions behind it — with **real metrics pulled straight from git history** (commits, active development days, lines of code, test counts). Code samples and live demos are available on request.
 
