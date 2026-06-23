@@ -3,17 +3,21 @@
 <h1 align="center">Hi, I'm Dmitry Ryzhkov 👋</h1>
 
 <p align="center">
-  <b>Full-stack & systems engineer</b> — AI agents · Flutter apps · pro-AV & home-automation platforms
+  <b>AI Automation Architect</b> · IoT Systems Engineer · RAG & Agentic Workflows
 </p>
 
 <p align="center">
   <a href="mailto:dmitry_r@me.com"><img src="https://img.shields.io/badge/Email-dmitry__r%40me.com-informational?style=flat&logo=apple&logoColor=white" alt="Email"></a>
-  <img src="https://img.shields.io/badge/Based%20in-Pro%20AV%20%2F%20Automation-555?style=flat" alt="Domain">
+  <img src="https://img.shields.io/badge/Vienna-Austria-555?style=flat&logo=googlemaps&logoColor=white" alt="Location">
+  <img src="https://img.shields.io/badge/English-Fluent-1f6feb?style=flat" alt="English">
+  <img src="https://img.shields.io/badge/Russian-Native-1f6feb?style=flat" alt="Russian">
 </p>
 
 ---
 
-I design and ship end-to-end products across **mobile, web, backend, AI agents, and physical automation** — from a 700-commit Flutter messenger to a multi-agent LangGraph recruitment backend to an edge-first smart-home platform for professional AV/KNX/Modbus integrators.
+**Senior systems architect with 20+ years engineering complex hardware ecosystems**, now building enterprise-grade **AI automation** and **IoT** solutions. I bridge physical infrastructure — smart home, pro-AV, control systems — and cognitive intelligence: **LLMs, multi-agent systems, and RAG**.
+
+My background is deliberately unusual. Two decades integrating Crestron, KNX, AMX, DSP audio and matrix video on premium projects — including the full digital refit of a Sunseeker superyacht — give me a systems-level instinct that I now apply to software. I don't just write code; I unify hardware, CRM data, and AI logic into seamless, autonomous business ecosystems. The projects below show that range: from a 700-commit Flutter messenger to a multi-agent LangGraph backend to an edge-first smart-home platform for professional integrators.
 
 Most of my work lives in **private client repositories**, so this profile is a curated set of **case studies**. Each one documents the problem, architecture, tech stack, and the engineering decisions behind it — with **real metrics pulled straight from git history** (commits, active development days, lines of code, test counts). Code samples and live demos are available on request.
 
@@ -34,6 +38,16 @@ Most of my work lives in **private client repositories**, so this profile is a c
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 ![KNX](https://img.shields.io/badge/KNX%20%2F%20Modbus%20%2F%20AV-FF6A00?style=flat)
+<br>
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Anthropic%20Claude-D97757?style=flat&logo=anthropic&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
+![Flowise](https://img.shields.io/badge/Flowise-512BD4?style=flat)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Home Assistant](https://img.shields.io/badge/Home%20Assistant-41BDF5?style=flat&logo=homeassistant&logoColor=white)
+![Crestron / AMX / RTI / Lutron](https://img.shields.io/badge/Crestron%20%C2%B7%20AMX%20%C2%B7%20RTI%20%C2%B7%20Lutron-1F6FEB?style=flat)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white)
 
 ## 📊 By the numbers
 
@@ -105,6 +119,20 @@ gantt
 | **[SeeTouch](case-studies/seetouch-mation-system.md)** | Open-core, edge-first smart-home platform for pro AV/KNX/Modbus | TypeScript · monorepo · WebSocket | ~81k LOC · 1,058 tests |
 | **[TopicDesk](case-studies/topic-desk.md)** | Omnichannel support desk & CRM that lives inside Telegram topics | grammY · Deno · Supabase | ~43k LOC · 117 tests |
 | **[M/Y Sirocco Audit](case-studies/my-sirocco.md)** | As-built AV/automation/network audit of a 47 m superyacht | Systems documentation · draw.io | 114 docs · 25 zones |
+
+## 🧭 Experience
+
+**Independent AI Solutions Architect & Developer** — Remote / International · 2022–Present
+End-to-end digital products for business clients: omni-channel CRM automation (WhatsApp/Telegram → CRM pipelines), advanced RAG knowledge bases, rapid MVP prototyping, and cross-platform Flutter apps.
+
+**Chief Engineer (contract)** — Sunseeker Predator 130 Superyacht, Italy · 2024–2025
+Led the complete digital refit — convergence of IT networks, AV systems, and automation logic — with fault-tolerant architectures running 24/7 in demanding marine conditions.
+
+**Senior Smart Systems Integrator & Consultant** — International (RU · EU · UK · UAE) · 2010–2022
+Delivered **50+ premium automation projects**: large-scale multi-room and club/PA audio (BSS DSP, BLU link), high-bandwidth video distribution (matrix / HDMI-over-IP), home cinema (Dolby Atmos / DTS:X), and custom protocol-bridging drivers.
+
+**M.Sc. Telecommunications** — Saint Petersburg State University of Telecommunications · 2007
+Multimedia technologies, signal processing, radio communication.
 
 ## 📫 Get in touch
 
