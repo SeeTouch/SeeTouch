@@ -129,10 +129,18 @@ End-to-end digital products for business clients: omni-channel CRM automation (W
 Led the complete digital refit — convergence of IT networks, AV systems, and automation logic — with fault-tolerant architectures running 24/7 in demanding marine conditions.
 
 **Senior Smart Systems Integrator & Consultant** — Russia · Latvia · Spain · Italy · France · Germany · UK · Malta · 2010–2022
-Full-cycle delivery of **50+ premium automation projects** — superyachts, hotels, villas, and luxury residences. Large-scale multi-room and club/PA audio (BSS DSP, BLU link), high-bandwidth video distribution (matrix / HDMI-over-IP), home cinema (Dolby Atmos / DTS:X), and custom protocol-bridging drivers — owning the path from ELV installation through systems design to client-facing handover.
+Full-cycle delivery of **50+ premium automation projects** — superyachts, hotels, villas, and luxury residences — owning every stage from ELV installation through systems design to client-facing handover.
+
+- **Pro audio & DSP:** large-scale multiroom plus club/PA and DJ sound systems, with matrix switching, audio routing, and precise DSP tuning (BSS Soundweb, BLU link, EQ/delay) — on superyachts and in venues alike.
+- **High-end home cinema (turnkey):** design, equipment supply, acoustic treatment, room preparation, and calibration with JBL Synthesis, professional Yamaha, and Dolby Atmos / DTS:X — including several private cinemas in Forte dei Marmi, Italy; projectors specified per use-case across multiple brands.
+- **Video & control:** high-bandwidth video distribution (matrix / HDMI-over-IP) and custom protocol-bridging drivers across Crestron, AMX, KNX, and Lutron.
 
 **M.Sc. Telecommunications** — Saint Petersburg State University of Telecommunications · 2007
 Multimedia technologies, signal processing, radio communication.
+
+## 🧘 Beyond the work
+
+I practice Kundalini yoga and mindfulness — which is also why several projects above serve wellness and conscious-living communities. The practice shapes how I work: decisions come from accumulated experience rather than first impulse, and a deliberate, measured approach tends to produce more balanced engineering and product calls.
 
 ## 📫 Get in touch
 
