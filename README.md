@@ -53,25 +53,25 @@ Most of my work lives in **private client repositories**, so this profile is a c
 
 ```mermaid
 gantt
-    title Project timeline (Nov 2025 – Jun 2026)
+    title Project Timeline 2025-2026
     dateFormat YYYY-MM-DD
-    axisFormat %b
-    section AI & Agents
-    Agency 360 (LangGraph)        :2026-01-08, 2026-03-17
-    Cortex (PDF → RAG)            :2026-03-05, 2026-05-08
-    section Mobile (Flutter)
-    Frau Messenger               :2026-03-05, 2026-06-22
-    Conscious Creators           :2026-02-22, 2026-03-15
-    The Conscious Creators       :2026-03-28, 2026-04-27
-    Yoga Timer                   :2026-03-28, 2026-05-06
-    Kundalini Space              :2025-11-23, 2026-03-05
-    section Web & 3D
-    Amrit Yoga Landing           :2026-03-29, 2026-05-11
-    DNA Mandala (WebGL)          :2026-04-05, 2026-04-08
-    section Systems & Automation
-    SeeTouch Platform            :2026-04-28, 2026-05-07
-    TopicDesk (CRM)              :2026-03-05, 2026-04-29
-    M/Y Sirocco Audit            :2026-05-17, 2026-05-18
+    axisFormat %b %y
+    section AI and Agents
+    Agency 360            :2026-01-08, 2026-03-17
+    Cortex                :2026-03-05, 2026-05-08
+    section Mobile Apps
+    Frau Messenger        :2026-03-05, 2026-06-22
+    Conscious Creators    :2026-02-22, 2026-03-15
+    CC Academy            :2026-03-28, 2026-04-27
+    Yoga Timer            :2026-03-28, 2026-05-06
+    Kundalini Space       :2025-11-23, 2026-03-05
+    section Web and 3D
+    Amrit Yoga Landing    :2026-03-29, 2026-05-11
+    DNA Mandala           :2026-04-05, 2026-04-08
+    section Systems and Automation
+    SeeTouch Platform     :2026-04-28, 2026-05-07
+    TopicDesk             :2026-03-05, 2026-04-29
+    Sirocco AV Audit      :2026-05-17, 2026-05-18
 ```
 
 ## 📦 Selected projects
