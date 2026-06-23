@@ -17,7 +17,7 @@
 
 **Senior systems architect with 20+ years engineering complex hardware ecosystems**, now building enterprise-grade **AI automation** and **IoT** solutions. I bridge physical infrastructure — smart home, pro-AV, control systems — and cognitive intelligence: **LLMs, multi-agent systems, and RAG**.
 
-My background is deliberately unusual. Two decades integrating Crestron, KNX, AMX, DSP audio and matrix video on premium projects — including the full digital refit of a luxury superyacht — give me a systems-level instinct that I now apply to software. I don't just write code; I unify hardware, CRM data, and AI logic into seamless, autonomous business ecosystems. The projects below show that range: from a 700-commit Flutter messenger to a multi-agent LangGraph backend to an edge-first smart-home platform for professional integrators.
+My background is deliberately unusual. Over two decades I walked the full path — from low-voltage (ELV) installer, to systems designer, to the engineer sitting across the table from the client — delivering **15+ superyachts** (the largest a **72 m** vessel I automated in 2026) and elite residences: hotels, villas, and apartments across **Russia, Latvia, Spain, Italy, France, Germany, the UK and Malta**. That means I own the **complete cycle — from a client's idea to a turnkey, working system.** Integrating Crestron, KNX, AMX, DSP audio and matrix video at that level gives me a systems-level instinct I now apply to software: I don't just write code, I unify hardware, CRM data, and AI logic into seamless, autonomous ecosystems. The projects below span mobile, web, AI agents, and automation — from a 700-commit Flutter messenger to a multi-agent LangGraph backend to an edge-first smart-home platform.
 
 Most of my work lives in **private client repositories**, so this profile is a curated set of **case studies**. Each one documents the problem, architecture, tech stack, and the engineering decisions behind it — with **real metrics pulled straight from git history** (commits, active development days, lines of code, test counts). Code samples and live demos are available on request.
 
@@ -125,11 +125,11 @@ gantt
 **Independent AI Solutions Architect & Developer** — Remote / International · 2022–Present
 End-to-end digital products for business clients: omni-channel CRM automation (WhatsApp/Telegram → CRM pipelines), advanced RAG knowledge bases, rapid MVP prototyping, and cross-platform Flutter apps.
 
-**Chief Engineer (contract)** — Luxury Superyacht (~40 m), Italy · 2024–2025
+**Chief Engineer (contract)** — Luxury Superyacht (~50 m), Italy · 2024–2025
 Led the complete digital refit — convergence of IT networks, AV systems, and automation logic — with fault-tolerant architectures running 24/7 in demanding marine conditions.
 
-**Senior Smart Systems Integrator & Consultant** — International (RU · EU · UK · UAE) · 2010–2022
-Delivered **50+ premium automation projects**: large-scale multi-room and club/PA audio (BSS DSP, BLU link), high-bandwidth video distribution (matrix / HDMI-over-IP), home cinema (Dolby Atmos / DTS:X), and custom protocol-bridging drivers.
+**Senior Smart Systems Integrator & Consultant** — Russia · Latvia · Spain · Italy · France · Germany · UK · Malta · 2010–2022
+Full-cycle delivery of **50+ premium automation projects** — superyachts, hotels, villas, and luxury residences. Large-scale multi-room and club/PA audio (BSS DSP, BLU link), high-bandwidth video distribution (matrix / HDMI-over-IP), home cinema (Dolby Atmos / DTS:X), and custom protocol-bridging drivers — owning the path from ELV installation through systems design to client-facing handover.
 
 **M.Sc. Telecommunications** — Saint Petersburg State University of Telecommunications · 2007
 Multimedia technologies, signal processing, radio communication.
