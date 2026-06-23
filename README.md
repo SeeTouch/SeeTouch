@@ -142,6 +142,8 @@ Multimedia technologies, signal processing, radio communication.
 
 I practice Kundalini yoga and mindfulness — which is also why several projects above serve wellness and conscious-living communities. The practice shapes how I work: decisions come from accumulated experience rather than first impulse, and a deliberate, measured approach tends to produce more balanced engineering and product calls.
 
+Away from the keyboard I play guitar and write my own music, songs, and lyrics. I'm endlessly curious about the world around me and love sharing what I've learned with others.
+
 ## 📫 Get in touch
 
 - **Email:** [dmitry_r@me.com](mailto:dmitry_r@me.com)
