@@ -1,14 +1,14 @@
-# The Conscious Creators Academy
+# Online Video-Course Academy
 
-> A subscription video-course platform for online education, delivered across web and mobile.
+> A subscription video-course platform for online education, delivered across web and mobile. *(Private client — shared without brand name.)*
 
 <kbd>Role: Solo developer</kbd> · <kbd>Flutter + Supabase + Next.js</kbd> · <kbd>2026-03-28 → 2026-04-27</kbd> · <kbd>Status: MVP</kbd>
 
 ## Overview
 
-The Conscious Creators Academy is an online video-course platform built around subscriptions and per-course purchases. A student-facing app (web, iOS, Android) handles browsing, playback, and progress tracking; a web admin panel manages courses, lessons, media, and users; and a separate marketing site converts visitors. The system is designed for a multi-language audience and includes the schema foundations for an AI knowledge base (transcription and semantic search over course content).
+This is an online video-course platform built around subscriptions and per-course purchases. A student-facing app (web, iOS, Android) handles browsing, playback, and progress tracking; a web admin panel manages courses, lessons, media, and users; and a separate marketing site converts visitors. The system is designed for a multi-language audience and includes the schema foundations for an AI knowledge base (transcription and semantic search over course content).
 
-Despite the similar name, this is a standalone project and not an evolution of the earlier `conscious-creators` repository, which is an unrelated contacts/messaging app built on a similar Flutter + Supabase stack.
+This is a standalone product, not an evolution of the separate omnichannel messaging CRM described in another case study — a different project that happens to share a similar Flutter + Supabase stack.
 
 ## What it does
 
@@ -27,7 +27,7 @@ Despite the similar name, this is a standalone project and not an evolution of t
 
 ## Architecture & engineering highlights
 
-- **Three apps, one shared core.** A Melos monorepo hosts the student app, admin panel, and a `tcc_shared` package holding Freezed models, Supabase table constants, the auth client, and a sealed `AppException` hierarchy — so both Flutter apps speak the same data contracts without duplication.
+- **Three apps, one shared core.** A Melos monorepo hosts the student app, admin panel, and a shared-core package holding Freezed models, Supabase table constants, the auth client, and a sealed `AppException` hierarchy — so both Flutter apps speak the same data contracts without duplication.
 - **Feature-first structure.** Each feature is organized into `presentation/`, `providers/`, and `data/` layers, keeping UI, state, and repositories cleanly separated across both apps.
 - **Server-side access control.** Course access is never decided on the client. The app calls a Postgres RPC (`has_course_access`) and free courses short-circuit without a round trip; everything else is authorized in the database and enforced by RLS.
 - **Secrets stay server-side.** The service-role key and storage credentials live only in edge-function environment variables; the Flutter clients receive configuration via `--dart-define` and only ever hold the public anon key.

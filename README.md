@@ -75,17 +75,17 @@ gantt
     Cortex                :2026-03-05, 2026-05-08
     section Mobile Apps
     Community Messenger   :2026-03-05, 2026-06-22
-    Conscious Creators    :2026-02-22, 2026-03-15
-    CC Academy            :2026-03-28, 2026-04-27
+    Omnichannel CRM       :2026-02-22, 2026-03-15
+    Course Academy        :2026-03-28, 2026-04-27
     Yoga Timer            :2026-03-28, 2026-05-06
     Kundalini Space       :2025-11-23, 2026-03-05
     section Web and 3D
-    Amrit Yoga Landing    :2026-03-29, 2026-05-11
+    Yoga Landing          :2026-03-29, 2026-05-11
     DNA Mandala           :2026-04-05, 2026-04-08
     section Systems and Automation
     SeeTouch Platform     :2026-04-28, 2026-05-07
     TopicDesk             :2026-03-05, 2026-04-29
-    Sirocco AV Audit      :2026-05-17, 2026-05-18
+    Superyacht AV Audit   :2026-05-17, 2026-05-18
 ```
 
 ## 📦 Selected projects
@@ -102,8 +102,8 @@ gantt
 | Project | What it is | Stack | Scale |
 |---|---|---|---|
 | **[Women's Community Messenger](case-studies/community-messenger.md)** | Local-first, offline-capable women's community messenger *(NDA)* | Flutter · Drift · Supabase | ~59k LOC · 478 tests · 723 commits |
-| **[Conscious Creators](case-studies/conscious-creators.md)** | Omnichannel messaging CRM (Telegram/WhatsApp/email → one inbox) | Flutter · Supabase Edge · TS | ~13k LOC · offline-first |
-| **[The Conscious Creators Academy](case-studies/the-conscious-creators.md)** | Subscription video-course platform across web & mobile | Flutter · Next.js · Supabase | ~18k LOC · monorepo |
+| **[Omnichannel Messaging CRM](case-studies/omnichannel-crm.md)** | Unifies Telegram/WhatsApp/email into one inbox for a yoga studio | Flutter · Supabase Edge · TS | ~13k LOC · offline-first |
+| **[Online Video-Course Academy](case-studies/video-course-academy.md)** | Subscription video-course platform across web & mobile | Flutter · Next.js · Supabase | ~18k LOC · monorepo |
 | **[Yoga Timer](case-studies/yoga-timer.md)** | iOS-first guided yoga & meditation app with audio sessions | Flutter · Drift · Swift plugin | ~14k LOC · 129 tests |
 | **[Kundalini Space](case-studies/kundalini-space.md)** | Telegram Mini App delivering subscription-gated practice videos | Flutter · FastAPI · Whisper | ~8.4k LOC · ML pipeline |
 
@@ -111,21 +111,21 @@ gantt
 | Project | What it is | Stack | Scale |
 |---|---|---|---|
 | **[DNA Mandala](case-studies/dna-mandala.md)** | Real-time 3D system mapping birth charts to geometry & generative sound | React Three Fiber · Three.js · Tone.js | ~7k LOC · 161 tests |
-| **[Amrit Yoga Landing](case-studies/amrit-yoga-landing.md)** | Multilingual, CMS-driven marketing site on the edge | Astro · React · Keystatic · Cloudflare | ~4.5k LOC · i18n |
+| **[Multilingual Yoga Landing](case-studies/yoga-landing.md)** | Multilingual, CMS-driven marketing site on the edge | Astro · React · Keystatic · Cloudflare | ~4.5k LOC · i18n |
 
 ### 🏗️ Systems & Automation
 | Project | What it is | Stack | Scale |
 |---|---|---|---|
 | **[SeeTouch](case-studies/seetouch-mation-system.md)** | Open-core, edge-first smart-home platform for pro AV/KNX/Modbus | TypeScript · monorepo · WebSocket | ~81k LOC · 1,058 tests |
 | **[TopicDesk](case-studies/topic-desk.md)** | Omnichannel support desk & CRM that lives inside Telegram topics | grammY · Deno · Supabase | ~43k LOC · 117 tests |
-| **[M/Y Sirocco Audit](case-studies/my-sirocco.md)** | As-built AV/automation/network audit of a 47 m superyacht | Systems documentation · draw.io | 114 docs · 25 zones |
+| **[Superyacht AV Audit](case-studies/superyacht-av-audit.md)** | As-built AV/automation/network audit of a ~50 m superyacht | Systems documentation · draw.io | 114 docs · 25 zones |
 
 ## 🧭 Experience
 
 **Independent AI Solutions Architect & Developer** — Remote / International · 2022–Present
 End-to-end digital products for business clients: omni-channel CRM automation (WhatsApp/Telegram → CRM pipelines), advanced RAG knowledge bases, rapid MVP prototyping, and cross-platform Flutter apps.
 
-**Chief Engineer (contract)** — Sunseeker Predator 130 Superyacht, Italy · 2024–2025
+**Chief Engineer (contract)** — Luxury Superyacht (~40 m), Italy · 2024–2025
 Led the complete digital refit — convergence of IT networks, AV systems, and automation logic — with fault-tolerant architectures running 24/7 in demanding marine conditions.
 
 **Senior Smart Systems Integrator & Consultant** — International (RU · EU · UK · UAE) · 2010–2022

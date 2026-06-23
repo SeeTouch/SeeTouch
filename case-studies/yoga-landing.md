@@ -1,6 +1,6 @@
-# Amrit Yoga Landing
+# Multilingual Yoga Landing
 
-> Multilingual marketing site for a Kundalini yoga teacher, edited entirely through a CMS.
+> Multilingual marketing site for a yoga teacher, edited entirely through a CMS. *(Private client — shared without brand name.)*
 
 <kbd>Role: Solo developer</kbd> · <kbd>Astro + React + Tailwind v4</kbd> · <kbd>2026-03-29 → 2026-05-11</kbd> · <kbd>Status: Production</kbd>
 
@@ -52,11 +52,4 @@ A polished, server-rendered marketing site for a Kundalini yoga teacher, built t
 
 ## Screenshots
 
-No dedicated screenshot directory; the repo contains live site imagery instead:
-
-- `public/images/events/<event>/cover.*` and `gallery-NN.*` — retreat photo galleries (56 image files across 5 events)
-- `public/images/homepage/aboutPhoto.jpg` — homepage portrait
-- `public/avatar.jpg`, `public/flower-of-life.png`, `public/favicon.png` — brand assets
-- `docs/logo.png` — chakra-gradient logo
-
-Rendered-page screenshots available on request.
+Not shared publicly. Available privately on request.

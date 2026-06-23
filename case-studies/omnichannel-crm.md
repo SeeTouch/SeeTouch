@@ -1,12 +1,12 @@
-# Conscious Creators
+# Omnichannel Messaging CRM
 
-> Omnichannel messaging CRM that unifies Telegram, WhatsApp and email into one inbox for a yoga studio.
+> Unifies Telegram, WhatsApp and email into one inbox for a yoga studio. *(Private client — shared without brand name.)*
 
 <kbd>Role: Solo developer</kbd> · <kbd>Flutter / Dart + Supabase</kbd> · <kbd>2026-02-22 → 2026-03-15</kbd> · <kbd>Status: MVP</kbd>
 
 ## Overview
 
-Conscious Creators is a communication hub for a yoga business whose teachers field student messages scattered across Telegram, WhatsApp and email. The product collapses those channels into a single conversation inbox, so a teacher answers a student in one app regardless of where the message originated. It is built as a Flutter monorepo on top of a serverless Supabase backend — PostgreSQL with row-level security, Edge Functions as the messaging switchboard, and Realtime for live updates. The MVP delivers end-to-end Telegram messaging (inbound and outbound), offline-first local storage, and an authenticated, themed mobile client.
+This is an omnichannel communication hub for a yoga business whose teachers field student messages scattered across Telegram, WhatsApp and email. The product collapses those channels into a single conversation inbox, so a teacher answers a student in one app regardless of where the message originated. It is built as a Flutter monorepo on top of a serverless Supabase backend — PostgreSQL with row-level security, Edge Functions as the messaging switchboard, and Realtime for live updates. The MVP delivers end-to-end Telegram messaging (inbound and outbound), offline-first local storage, and an authenticated, themed mobile client.
 
 ## What it does
 
@@ -52,7 +52,4 @@ Conscious Creators is a communication hub for a yoga business whose teachers fie
 
 ## Screenshots
 
-- `docs/screenshots/IMG_5B3B29EFCE3E-1.jpeg`
-- `docs/screenshots/whatsapp chat room.PNG`
-
-Additional UI captures available on request.
+Not shared publicly (client conversation data). Available privately on request.

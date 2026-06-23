@@ -1,12 +1,12 @@
-# M/Y Sirocco — AV & Automation Systems Audit
+# Superyacht AV & Automation Systems Audit
 
-> A structured as-built audit framework documenting the AV, control, network, and CCTV systems of a 47 m superyacht.
+> A structured as-built audit framework documenting the AV, control, network, and CCTV systems of a ~50 m superyacht.
 
 <kbd>Role: AV/automation consultant (audit lead)</kbd> · <kbd>Domain: marine AV/control systems</kbd> · <kbd>May 2026</kbd> · <kbd>Status: Documentation deliverable (pre-visit scaffold)</kbd>
 
 ## Overview
 
-M/Y Sirocco is a professional audio-video and automation systems audit for a 47-metre Heesen superyacht (2006 build, 2013 refit). The objective is to document every AV, control, network, and CCTV system aboard "as-built," surface defects and risks, and give the owner and management company a defensible basis for a modernization decision. This case study covers the structured documentation system and methodology that drive the engagement: a repeatable, two-dimensional (zone × system) framework designed for a fast on-site survey followed by office post-processing into a client-ready report.
+A professional audio-video and automation systems audit for a ~50-metre superyacht. The objective is to document every AV, control, network, and CCTV system aboard "as-built," surface defects and risks, and give the owner and management company a defensible basis for a modernization decision. This case study covers the structured documentation system and methodology that drive the engagement: a repeatable, two-dimensional (zone × system) framework designed for a fast on-site survey followed by office post-processing into a client-ready report.
 
 The deliverable demonstrates domain expertise in marine AV/control integration — Crestron, Savant, AMX, KNX, Lutron and similar platforms — and the discipline of turning a chaotic field survey into auditable, versioned documentation. It complements automation-platform work by encoding how a real superyacht's control, audio, and video subsystems are inventoried, diagrammed, and assessed.
 
@@ -62,7 +62,4 @@ The deliverable demonstrates domain expertise in marine AV/control integration �
 
 ## Diagrams & assets
 
-- `assets/ga-plans/01-flybridge-deck.png` … `04-lower-deck.png` — general-arrangement deck plans
-- `03-systems/{audio,video,network}/*.drawio` — system signal-flow and topology diagrams
-- `04-racks/{main-av-rack,bridge-rack}/elevation.drawio` — rack elevations
-- Per-zone cabling/rack diagrams and photo logs — populated on site; **available on request**
+General-arrangement deck plans, system signal-flow and topology diagrams (draw.io), rack elevations, and per-zone cabling/photo logs. Not shared publicly (client vessel). Available privately on request.
