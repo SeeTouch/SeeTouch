@@ -81,7 +81,7 @@ gantt
 ### 🤖 AI & Agents
 | Project | What it is | Stack | Scale |
 |---|---|---|---|
-| **[Agency 360](case-studies/agency-360-langchain.md)** | Multi-agent LangGraph backend automating hospitality recruitment onboarding | Python · LangGraph · async | ~10.8k LOC · multi-agent |
+| **[Agency 360](case-studies/agency-360-langchain.md)** | Multi-agent LangGraph backend automating hospitality recruitment onboarding | Python · LangGraph · FastAPI | ~12k LOC · 4 agents |
 | **[Cortex](case-studies/cortex.md)** | Turns PDFs & scanned books into RAG-ready knowledge bases via Gemini vision | React · TS · Google Gemini | ~9.1k LOC · 128 tests |
 
 ### 📱 Mobile (Flutter)

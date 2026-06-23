@@ -2,11 +2,11 @@
 
 > Code-first LangGraph backend that automates hospitality recruitment onboarding end to end.
 
-<kbd>Role: Solo developer</kbd> · <kbd>Python · LangChain / LangGraph</kbd> · <kbd>Jan–Mar 2026</kbd> · <kbd>Status: MVP</kbd>
+<kbd>Role: Solo developer</kbd> · <kbd>Python · LangGraph · FastAPI</kbd> · <kbd>Late 2025 – 2026</kbd> · <kbd>Status: Production (v2)</kbd>
 
 ## Overview
 
-Agency 360 automates the full candidate onboarding cycle for a hospitality recruitment agency. It replaces a brittle low-code (n8n) workflow with a code-first, asynchronous multi-agent system built on LangGraph. A conversational agent ("Lisa") runs candidates through a deterministic onboarding sequence over chat, while specialized agents parse CVs, analyze photos, and detect work-history anomalies. The design goal was reliability: a deterministic state machine drives the process, and the LLMs act as a "smart interface" for extraction and natural language, never as the controller of the flow.
+Agency 360 automates the full candidate onboarding cycle for a hospitality recruitment agency. It replaces a brittle low-code (n8n) workflow with a code-first, asynchronous multi-agent system built on LangGraph. A conversational agent ("Lisa") runs candidates through a deterministic onboarding sequence over chat, while specialized agents parse CVs, analyze photos, and detect work-history anomalies. The design goal was reliability: a deterministic state machine drives the process, and the LLMs act as a "smart interface" for extraction and natural language, never as the controller of the flow. The system was built across two iterations: a first version proved out the architecture, and a second, larger version — the primary, current codebase — extended it with a cross-job work-history analyzer, a references and summary builder, a data-correction system, and context-aware step skipping.
 
 ## What it does
 
@@ -44,15 +44,14 @@ Agency 360 automates the full candidate onboarding cycle for a hospitality recru
 
 | Metric | Value |
 |---|---|
-| Timeline | 2026-01-08 → 2026-03-05 (first → last commit) |
-| Commits | 23 |
-| Active development days | 11 |
-| Lines of code | ~10,800 Python (authored, excl. venv/site-packages) |
-| Languages | Python (64 authored modules) + 11 Markdown prompt files; YAML/JSON config |
-| Tests | LLM-driven E2E simulator (runner + 6 persona scenarios); no unit-test suite |
+| Timeline | Late 2025 – 2026, developed over an extended period across two versions |
+| Lines of code | ~12,100 Python in the current v2 (54 authored modules); an earlier iteration added ~10,800 |
+| Architecture | 4 specialized agents · 3 compiled LangGraph pipelines · provider-agnostic LLM factory (Anthropic + Gemini + OpenAI) |
+| Languages | Python + a Markdown prompt library; YAML/JSON config |
+| Tests | LLM-driven end-to-end simulator with persona scenarios |
 
-> Note: the working tree contains ~5,000 `.py` files, but all but ~64 are vendored dependencies inside the virtualenv and are excluded from the LOC figure above. Git history in the snapshot reflects 23 commits over 11 active days; metrics here are taken directly from the repository.
+> Note on effort vs. commits: this was a long-running project, but most work landed in large, infrequent commits, and the primary v2 codebase is maintained outside git — so a raw commit count badly understates the time invested. A detailed `CHANGELOG.md` and `ROADMAP.md` document the sustained, near-daily iteration on the conversational logic, extraction agents, and onboarding state machine.
 
 ## Screenshots
 
-No UI screenshots (backend service). Real E2E test assets exist under `tests/e2e/assets/` (anonymized photos and sample CVs). Architecture and agent documentation is available under `backend/docs/` (`ARCHITECTURE.md`, `AGENTS.md`). Demonstration available on request.
+No UI screenshots (backend service). Architecture and agent documentation, a detailed `CHANGELOG.md`, and a `ROADMAP.md` document the system and its development history. A live conversational demo (the "Lisa" onboarding flow over chat) is available on request.
